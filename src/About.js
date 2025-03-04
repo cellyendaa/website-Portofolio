@@ -48,6 +48,7 @@ function AboutPage() {
 
   const jumpToReleventDiv = (event) => {
     let name = event.target.getAttribute('name')
+    console.log("namename", name);
     
     const releventDiv = document.getElementById(name);
     // behavior: "smooth" parameter for smooth movement
