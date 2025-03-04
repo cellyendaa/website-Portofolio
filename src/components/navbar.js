@@ -21,7 +21,7 @@ const Navbar = ({ onClick }) => {
         <div onClick={onClick} name="Project" href="#" className="text-[#786262] text-sm cursor-pointer">
           Project
         </div>
-        <div onClick={onClick} name="View Resume" href="#" className="text-[#786262] text-sm cursor-pointer">
+        <div onClick={onClick} name="View Resume" href="https://drive.google.com/file/d/1UlVg6TMnhqmFyayKdE-mPvP947kfEXuY/view?usp=drive_link" className="text-[#786262] text-sm cursor-pointer">
           View Resume
         </div>
       </div>
