@@ -2,17 +2,19 @@ import React from "react";
 
 function Project({ gambar = "", namaProject = "", dekripsi = "" }) {
   return (
-    <div class=" justify-items-center border border-gray-200 rounded-lg shadow-sm bg-[#FFF0F0] m-3 ">
-      <div className="size-fit ">
-        <img className="rounded-t-l" src={gambar} alt="" />
+    <div class="flex flex-col justify-around justify-items-center border border-gray-200 rounded-lg shadow-sm bg-[#FFF0F0] m-3 ">
+      <div className="h-72 w-full">
+        <img className="w-full h-full object-fill pt-2" src={gambar} alt="" />
       </div>
-      <div class="p-5">
+      <div class="p-5 w-full h-52">
         <a href="#">
           <h5 class="flex w-auto h-auto font-inter text-xl py-2 font-bold text-[#786262] ">{namaProject}</h5>
         </a>
         <p class="mb-3 w-auto h-auto font-inter text-xs text-[#786262] dark:text-gray-400 pb-7">{dekripsi}</p>
+      </div>
+      <div className="pl-52 pb-5">
         <a
-          href="#"
+          href="https://drive.google.com/drive/folders/1hBx3Nh522vDfS-khlRS61ZYPusd5Kp2Q?usp=sharing"
           className="content-end inline-flex inset-y-14 justify-end px-3 py-2 font-inter text-xs text-white bg-[#E1BFBF] rounded-lg hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-400 dark:bg-pink-300 dark:hover:bg-pink-200 dark:focus:ring-pink-100"
         >
           Read more

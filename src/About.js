@@ -46,18 +46,28 @@ function AboutPage() {
     },
   ];
 
+  const jumpToReleventDiv = (event) => {
+    let name = event.target.getAttribute('name')
+    console.log("namename", name);
+    
+    const releventDiv = document.getElementById(name);
+    // behavior: "smooth" parameter for smooth movement
+    releventDiv.scrollIntoView({behavior: "smooth"});
+  };
+
   return (
     <div className="flex flex-col w-full object-left">
       <section className="bg-[#FFFBFB] "></section>
-
-      <div className="flex flex-col space-y-5">
-        <div className="px-13 ">
-          <Navbar />
-          <div className="flex flex-row -mt-20">
-            <div id="foto" className="object-left "></div>
-            <img src={Foto}></img>
-            <div id="Text" className="flex flex-col x-40 py-56 ">
-              <p1 className="font-inter font-bold text-6xl text-[#8E7B68]">Halo, Saya Putri Cellyenda!</p1>
+        <Navbar onClick={jumpToReleventDiv} />
+      <div className="flex flex-col space-y-5 pt-20">
+        <div className="px-13 space-y-28">
+          <div className="flex flex-row w-full">
+            {/* <div id="foto" className="object-left "></div> */}
+            <div className="w-full h-48 ">
+            <img className="w-96 h-96 object-cover" src={Foto}></img>
+            </div>
+            <div id="Text" className="flex flex-col" >
+              <p1 className="font-inter font-bold text-6xl text-[#8E7B68]" id="Home">Halo, Saya Putri Cellyenda!</p1>
               <br></br>
               <p1 className="flex flex-col space-y-10 font-inter text-lg text-[#8E7B68]">
                 <span>
@@ -72,8 +82,8 @@ function AboutPage() {
             </div>
           </div>
           {/* <h4 className="flex items-center justify-center font-inter font-bold text-xs rounded-full w-24 h-10 border-[#E1BFBF] border-2 text-[#806C6C] ">2022-Now</h4> */}
-          <div className="flex flex-row justify-between w-full px-20  gap-16 -mt-20 ">
-            <div className="w-1/2 ">
+          <div className="flex flex-row justify-between w-full px-20  gap-16 ">
+            <div className="w-1/2" id="About">
               <h2 className="flex items-center pb-4 justify-center font-inter font-bold text-2xl text-[#806C6C] text-center ">Pendidikan</h2>
               <div className="box-content min-h-[21rem] p-3 rounded-[3rem] pt-2 border-opacity-100 bg-[#FFF0F0]">
                 <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center">Universitas Al-azhar Indonesia</h3>
@@ -112,7 +122,7 @@ function AboutPage() {
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#FFF0F0] relative">
+        <div className="w-full bg-[#FFF0F0] relative" id="Skill">
           <img src={VectorOne} className="absolute top-0 left-0 object-cover w-60 " />
           <img src={VectorTwo} className="absolute bottom-0 right-0 object-cover w-60 " />
           <div className="flex justify-center py-20">
@@ -155,7 +165,7 @@ function AboutPage() {
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#FFFBFB]">
+        <div className="w-full bg-[#FFFBFB]" id="Project">
           <div className="px-2">
             <p1 className="flex items-center justify-center font-inter text-3xl text-center py-2 font-bold text-[#786262] ">Project</p1>
             <br></br>
@@ -184,7 +194,7 @@ function AboutPage() {
         </div>
         <div className="w-full bg-[#FFF0F0] relative">
           <Contact />
-          </div>
+        </div>
       </div>
     </div>
   );

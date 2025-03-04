@@ -3,10 +3,12 @@ import React from "react";
 function contact() {
   return (
     <div>
-      <div class="">
-        <p className="flex font-inter text-3xl text-center py-2 font-bold text-[#786262] ">contact.</p>
-        <h2 className="font-inter text-xs text-[#786262]">Hubungi saya lewat media sosial atau kirim email ke saya ya!</h2>
-        <ul class="ml-3">
+      <div class="flex flex-col space-y-5">
+        <div className="ml-3">
+          <h1 className="flex font-inter text-3xl text-center py-2 font-bold text-[#786262] ">Contact.</h1>
+          <h2 className="font-inter text-xs text-[#786262]">Hubungi saya lewat media sosial atau kirim email ke saya ya!</h2>
+        </div>
+        <ul class="ml-3 flex flfex-row space-x-5">
           <li class="my-4">
             <a
               href="https://github.com/cellyendaa?tab=repositories"
@@ -51,13 +53,13 @@ function contact() {
               <span class="ml-2">putricellyendaa_</span>
             </a>
           </li>
-          <li class="my-4">
+          <li class="my-4 w-auto">
             <a
               href="https://www.linkedin.com/in/putri-cellyenda-83168a288?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGqSSnnPJQqGHCsm5J2BmZg%3D%3D"
               aria-label="LINKEDIN"
               target="_blank"
               rel="noopener"
-              class="w-min flex items-center hover:underline bg-white px-1 py-1 rounded-md text-[#786262] transition hover:translate-x-2 "
+              class="w-auto flex flex-row items-center hover:no-underline bg-white px-1 py-1 rounded-md text-[#786262] transition hover:translate-x-2 "
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50" height="20">
                 <path
@@ -85,7 +87,7 @@ function contact() {
                 <path d="M503.983 92.994A8.017 8.017 0 00512 84.977V42.221C512 18.941 493.059 0 469.779 0H42.221C18.941 0 0 18.941 0 42.221v427.557C0 493.059 18.941 512 42.221 512h427.557c23.28 0 42.221-18.941 42.221-42.221V119.182c0-4.427-3.588-8.017-8.017-8.017s-8.017 3.589-8.017 8.017v350.597c0 14.44-11.747 26.188-26.188 26.188H42.221c-14.44 0-26.188-11.748-26.188-26.188V42.221c0-14.44 11.748-26.188 26.188-26.188h427.557c14.441 0 26.188 11.748 26.188 26.188v42.756a8.017 8.017 0 008.017 8.017z"></path>
                 <path d="M153.386 238.898a8.017 8.017 0 008.017-8.017v-34.739a8.017 8.017 0 00-8.017-8.017H84.977a8.017 8.017 0 00-8.017 8.017v230.881a8.017 8.017 0 008.017 8.017h68.409a8.017 8.017 0 008.017-8.017V266.154a8.017 8.017 0 00-16.034 0v152.852H92.994V204.159h52.376v26.722a8.017 8.017 0 008.016 8.017zM358.614 435.04h68.409a8.017 8.017 0 008.017-8.017V264.551c0-20.236-9.586-39.579-26.99-54.465-16.319-13.955-37.454-21.96-57.987-21.96-33.891 0-55.359 11.268-68.944 25.151v-17.134a8.017 8.017 0 00-8.017-8.017h-68.409a8.017 8.017 0 00-8.017 8.017v230.881a8.017 8.017 0 008.017 8.017h68.409a8.017 8.017 0 008.017-8.017V315.858c0-21.457 18.032-34.739 34.739-34.739 20.129 0 34.739 14.61 34.739 34.739v111.165a8.017 8.017 0 008.017 8.017zm-42.756-169.954c-24.418 0-50.772 19.412-50.772 50.772v103.148H212.71V204.159h52.376v34.739c0 3.656 2.573 6.926 6.125 7.789 3.66.888 7.55-.973 9.15-4.385 11.871-25.31 35.323-38.143 69.703-38.143 32.545 0 68.944 25.828 68.944 60.392v154.455H366.63V315.858c0-28.946-21.827-50.772-50.772-50.772zM119.182 76.96c-23.281 0-42.221 18.941-42.221 42.221s18.941 42.221 42.221 42.221 42.221-18.941 42.221-42.221-18.941-42.221-42.221-42.221zm0 68.41c-14.44 0-26.188-11.748-26.188-26.188s11.748-26.188 26.188-26.188 26.188 11.748 26.188 26.188-11.749 26.188-26.188 26.188z"></path>
               </svg>
-              <span class="ml-2">Putri Cellyenda</span>
+              <span class="mr-3">Putri Cellyenda</span>
             </a>
           </li>
         </ul>
