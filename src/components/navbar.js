@@ -8,7 +8,7 @@ const Navbar = ({ onClick }) => {
         <img src={Logo} className=" size-20 -ml-5"></img>
         <p className="text-[#786262] text-3xl font-thin font-italiana pb-1 ml-10 uppercase">Putri Cellyenda</p>
       </div>
-      <div id="kanan" className="flex flex-row items-center space-x-8 font-bold ">
+      <div id="kanan" className="flex flex-row items-center space-x-1 font-bold ">
         <div onClick={onClick} name="Home" href="#" className="text-[#786262]  hover:text-xs transition-all duration-1000 cursor-pointer text-sm px-5 py-2.5 ">
           Home
         </div>
