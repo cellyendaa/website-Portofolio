@@ -12,16 +12,16 @@ const Navbar = ({ onClick }) => {
         <div onClick={onClick} name="Home" href="#" className="text-[#786262]  hover:text-xs transition-all duration-1000 cursor-pointer text-sm px-5 py-2.5 ">
           Home
         </div>
-        <div onClick={onClick} name="About" href="#" className="text-[#786262] text-sm cursor-pointer">
+        <div onClick={onClick} name="About" href="#" className="text-[#786262] hover:text-xs transition-all duration-1000 cursor-pointer text-sm px-5 py-2.5 ">
           About
         </div>
-        <div onClick={onClick} name="Skill" href="#" className="text-[#786262] text-sm cursor-pointer">
+        <div onClick={onClick} name="Skill" href="#" className="text-[#786262] hover:text-xs transition-all duration-1000 cursor-pointer text-sm px-5 py-2.5 ">
           Skill
         </div>
-        <div onClick={onClick} name="Project" href="#" className="text-[#786262] text-sm cursor-pointer">
+        <div onClick={onClick} name="Project" href="#" className="text-[#786262] hover:text-xs transition-all duration-1000 cursor-pointer text-sm px-5 py-2.5 ">
           Project
         </div>
-        <div onClick={onClick} name="View Resume" href="#" className="text-[#786262] text-sm cursor-pointer">
+        <div onClick={onClick} name="View Resume" href="#" className="text-[#786262] hover:text-xs transition-all duration-1000 cursor-pointer text-sm px-5 py-2.5 ">
           View Resume
         </div>
       </div>
