@@ -1,17 +1,19 @@
 {
-  "name": "putriportofolio",
+  "name": "my-responsive-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "tailwindcss": "^3.x.x",
-    "postcss": "^8.x.x",
-    "autoprefixer": "^10.x.x",
-    "@heroicons/react": "^2.2.0",
-    "@material-tailwind/react": "^2.1.10",
-    "cra-template": "1.2.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^4.0.9",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.16"
+    "@tailwindcss/postcss": "^4.0.9"
   }
 }

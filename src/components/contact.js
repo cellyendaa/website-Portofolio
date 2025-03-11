@@ -8,12 +8,12 @@ function contact() {
           <h1 className="flex font-inter text-3xl text-center py-2 font-bold text-[#786262] ">Contact.</h1>
           <h2 className="font-inter text-xs text-[#786262]">Hubungi saya lewat media sosial atau kirim email ke saya ya!</h2>
         </div>
-        <ul class="ml-3 flex flfex-row space-x-5">
+        <ul class="ml-3 flex flex-row space-x-5">
           <li class="my-4">
             <a
               href="https://github.com/cellyendaa?tab=repositories"
+              target='_blank'
               aria-label="GITHUB"
-              target="_blank"
               rel="noopener"
               class="w-min flex items-center  bg-white px-1 py-1 rounded-md text-[#786262] transition hover:translate-x-2 hover:no-underline"
             >

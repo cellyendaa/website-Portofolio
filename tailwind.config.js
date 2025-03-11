@@ -16,7 +16,6 @@ module.exports = {
           "custom-color": "#E1BFBF",
           "custom-color": "#FFF0F0",
           "custom-color": "#060000",
-       
         },
       },
     },
